@@ -4,7 +4,7 @@
 
 `toastify-react-component` is a simple and customizable React component for displaying toast notifications. It supports different types of messages like success, info, warning, and error, and allows you to position the notifications anywhere on the screen.
 
-[toastify-react-component demo](![Vite + React - Google Chrome 2024-08-15 17-04-05 (online-video-cutter com)](https://github.com/user-attachments/assets/4b4c2773-676a-4bfc-9b0d-ddff9dc6a46c)
+toastify-react-component demo(![Vite + React - Google Chrome 2024-08-15 17-04-05 (online-video-cutter com)]https://github.com/user-attachments/assets/4b4c2773-676a-4bfc-9b0d-ddff9dc6a46c
 )
 
 ## Features
