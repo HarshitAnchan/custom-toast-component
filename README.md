@@ -17,16 +17,14 @@
 
 You can install this package via npm:
 
-````bash
+```bash
 npm install toastify-react-component
 Or via yarn:
 yarn add toastify-react-component
 
-## Usage
+## Usage Here's a basic example of how to use `toastify-react-component` in your project:
 
-Here's a basic example of how to use `toastify-react-component` in your project:
 
-```jsx
 import React from "react";
 import useNotification from "toastify-react-component";
 
@@ -112,4 +110,4 @@ A function to trigger a toast notification.
   - `"error"`
 - **`message`**: A string containing the message to be displayed in the notification.
 - **`duration`**: A number representing the duration (in milliseconds) for which the notification will remain visible.
-````
+```
