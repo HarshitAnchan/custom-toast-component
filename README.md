@@ -1,11 +1,16 @@
-# toastify-react-component
+# React Toast Popup
 
-[![npm version](https://badge.fury.io/js/npm.svg)]
+`react-toast-notify-popup` is a simple and customizable React component for displaying toast notifications. It supports different types of messages like success, info, warning, and error, and allows you to position the notifications anywhere on the screen.
 
-`toastify-react-component` is a simple and customizable React component for displaying toast notifications. It supports different types of messages like success, info, warning, and error, and allows you to position the notifications anywhere on the screen.
+![Demo](https://github.com/user-attachments/assets/4b4c2773-676a-4bfc-9b0d-ddff9dc6a46c)
 
-toastify-react-component demo(![Vite + React - Google Chrome 2024-08-15 17-04-05 (online-video-cutter com)](https://github.com/user-attachments/assets/4b4c2773-676a-4bfc-9b0d-ddff9dc6a46c)
-)
+## Installation
+
+You can install React Toast Popup via npm:
+
+```jsx
+npm install toast-popup-react-component
+```
 
 ## Features
 
@@ -14,23 +19,17 @@ toastify-react-component demo(![Vite + React - Google Chrome 2024-08-15 17-04-05
 - Position notifications anywhere on the screen
 - Responsive and mobile-friendly
 
-## Installation
+## Usage
 
-You can install this package via npm:
+To use React Toast Popup in your React application, follow these steps:
 
-```bash
-npm install toastify-react-component
-Or via yarn:
-yarn add toastify-react-component
-
-## Usage Here's a basic example of how to use `toastify-react-component` in your project:
-
-
+```jsx
 import React from "react";
 import useNotification from "toastify-react-component";
 
 function App() {
-  const { NotificationComponent, triggerNotification } = useNotification("top-right");
+  const { NotificationComponent, triggerNotification } =
+    useNotification("top-right");
 
   return (
     <div className="App">
@@ -87,6 +86,7 @@ function App() {
 }
 
 export default App;
+```
 
 ## API
 
@@ -111,4 +111,3 @@ A function to trigger a toast notification.
   - `"error"`
 - **`message`**: A string containing the message to be displayed in the notification.
 - **`duration`**: A number representing the duration (in milliseconds) for which the notification will remain visible.
-```
