@@ -1,6 +1,6 @@
 # toastify-react-component
 
-[![npm version](https://badge.fury.io/js/npm.svg)]
+npm version(https://badge.fury.io/js/npm.svg)
 
 `toastify-react-component` is a simple and customizable React component for displaying toast notifications. It supports different types of messages like success, info, warning, and error, and allows you to position the notifications anywhere on the screen.
 
